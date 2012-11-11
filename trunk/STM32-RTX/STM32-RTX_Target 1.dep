@@ -1,0 +1,2 @@
+Dependencies for Project 'STM32-RTX', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32l1xx_md.s)(0x4F5835B8)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files\Keil\ARM\RV31\Inc" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\ST\STM32L1xx" --list "startup_stm32l1xx_md.lst" --xref -o "startup_stm32l1xx_md.o" --depend "startup_stm32l1xx_md.d")

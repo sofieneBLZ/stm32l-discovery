@@ -1,0 +1,62 @@
+*** Creating Trace Output File '.\Obj\STM32L-uCOS.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_adc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_comp.o"'
+### List of Objects: adding '".\obj\stm32l1xx_crc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_dac.o"'
+### List of Objects: adding '".\obj\stm32l1xx_dbgmcu.o"'
+### List of Objects: adding '".\obj\stm32l1xx_dma.o"'
+### List of Objects: adding '".\obj\stm32l1xx_exti.o"'
+### List of Objects: adding '".\obj\stm32l1xx_flash.o"'
+### List of Objects: adding '".\obj\stm32l1xx_flash_ramfunc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_gpio.o"'
+### List of Objects: adding '".\obj\stm32l1xx_i2c.o"'
+### List of Objects: adding '".\obj\stm32l1xx_iwdg.o"'
+### List of Objects: adding '".\obj\stm32l1xx_lcd.o"'
+### List of Objects: adding '".\obj\stm32l1xx_pwr.o"'
+### List of Objects: adding '".\obj\stm32l1xx_rcc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_rtc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_spi.o"'
+### List of Objects: adding '".\obj\stm32l1xx_syscfg.o"'
+### List of Objects: adding '".\obj\stm32l1xx_tim.o"'
+### List of Objects: adding '".\obj\stm32l1xx_usart.o"'
+### List of Objects: adding '".\obj\stm32l1xx_wwdg.o"'
+### List of Objects: adding '".\obj\system_stm32l1xx.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\cpu_c.o"'
+### List of Objects: adding '".\obj\cpu_a.o"'
+### List of Objects: adding '".\obj\lib_mem.o"'
+### List of Objects: adding '".\obj\lib_str.o"'
+### List of Objects: adding '".\obj\lib_mem_a.o"'
+### List of Objects: adding '".\obj\os_cpu_a.o"'
+### List of Objects: adding '".\obj\os_core.o"'
+### List of Objects: adding '".\obj\os_flag.o"'
+### List of Objects: adding '".\obj\os_mbox.o"'
+### List of Objects: adding '".\obj\os_mem.o"'
+### List of Objects: adding '".\obj\os_mutex.o"'
+### List of Objects: adding '".\obj\os_q.o"'
+### List of Objects: adding '".\obj\os_sem.o"'
+### List of Objects: adding '".\obj\os_task.o"'
+### List of Objects: adding '".\obj\os_time.o"'
+### List of Objects: adding '".\obj\os_tmr.o"'
+### List of Objects: adding '".\obj\os_cpu_c.o"'
+### List of Objects: adding '".\obj\os_dbg.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\startup_stm32l1xx_md.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\misc.o" ".\obj\stm32l1xx_adc.o" ".\obj\stm32l1xx_comp.o" ".\obj\stm32l1xx_crc.o" ".\obj\stm32l1xx_dac.o" ".\obj\stm32l1xx_dbgmcu.o" ".\obj\stm32l1xx_dma.o" ".\obj\stm32l1xx_exti.o" ".\obj\stm32l1xx_flash.o" ".\obj\stm32l1xx_flash_ramfunc.o" ".\obj\stm32l1xx_gpio.o" ".\obj\stm32l1xx_i2c.o" ".\obj\stm32l1xx_iwdg.o" ".\obj\stm32l1xx_lcd.o" ".\obj\stm32l1xx_pwr.o" ".\obj\stm32l1xx_rcc.o" ".\obj\stm32l1xx_rtc.o" ".\obj\stm32l1xx_spi.o" ".\obj\stm32l1xx_syscfg.o" ".\obj\stm32l1xx_tim.o" ".\obj\stm32l1xx_usart.o" ".\obj\stm32l1xx_wwdg.o" ".\obj\system_stm32l1xx.o" ".\obj\core_cm3.o" ".\obj\cpu_c.o" ".\obj\cpu_a.o" ".\obj\lib_mem.o" ".\obj\lib_str.o" ".\obj\lib_mem_a.o" ".\obj\os_cpu_a.o" ".\obj\os_core.o" ".\obj\os_flag.o" ".\obj\os_mbox.o" ".\obj\os_mem.o" ".\obj\os_mutex.o" ".\obj\os_q.o" ".\obj\os_sem.o" ".\obj\os_task.o" ".\obj\os_time.o" ".\obj\os_tmr.o" ".\obj\os_cpu_c.o" ".\obj\os_dbg.o" ".\obj\main.o" ".\obj\startup_stm32l1xx_md.o" --strict --scatter ".\Obj\STM32L-uCOS.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM32L-uCOS.map" -o ".\Obj\STM32L-uCOS.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\STM32L-uCOS.axf'
+### ADS-LD Command File: '.\Obj\STM32L-uCOS.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\STM32L-uCOS.lnp', Handle=0x00000374
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\STM32L-uCOS.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
