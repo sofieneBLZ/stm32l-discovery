@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\workspace\STM32-RTX\STM32-RTX.uvproj
+Project File Date:  11/10/2012
+
+<h2>Output:</h2>
+Clean started: Project: 'STM32-RTX'
+   deleting intermediate output files for target 'STM32-RTX'
+Build target 'STM32-RTX'
+compiling system_stm32l1xx.c...
+compiling core_cm3.c...
+compiling stm32l1xx_gpio.c...
+compiling stm32l1xx_rcc.c...
+compiling RTX_Config.c...
+compiling main.c...
+User\main.c(75): warning:  #1-D: last line of file ends without a newline
+assembling startup_stm32l1xx_md.s...
+linking...
+.\OBJ\STM32-RTX.axf: Error: L6218E: Undefined symbol PWR_RTCAccessCmd (referred from main.o).
+Target not created
+Build target 'STM32-RTX'
+compiling stm32l1xx_pwr.c...
+linking...
+Program Size: Code=5224 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32-RTX'
+compiling main.c...
+User\main.c(86): error:  #20: identifier "USERBUTTON_GPIO_PIN" is undefined
+User\main.c(90): error:  #20: identifier "USERBUTTON_GPIO_PORT" is undefined
+User\main.c(110): error:  #20: identifier "LD_GREEN_GPIO_PIN" is undefined
+User\main.c(110): error:  #20: identifier "LD_BLUE_GPIO_PIN" is undefined
+User\main.c(115): error:  #20: identifier "LD_GPIO_PORT" is undefined
+User\main.c(118): warning:  #223-D: function "GPIO_LOW" declared implicitly
+User\main.c(122): error:  #20: identifier "CTN_CNTEN_GPIO_PIN" is undefined
+User\main.c(123): error:  #20: identifier "CTN_GPIO_PORT" is undefined
+User\main.c(126): warning:  #223-D: function "GPIO_HIGH" declared implicitly
+User\main.c(180): error:  #20: identifier "IDD_MEASURE" is undefined
+User\main.c(182): error:  #20: identifier "IDD_MEASURE_PORT" is undefined
+Target not created
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+.\OBJ\STM32-RTX.axf: Error: L6218E: Undefined symbol EXTI_Init (referred from main.o).
+.\OBJ\STM32-RTX.axf: Error: L6218E: Undefined symbol NVIC_Init (referred from main.o).
+.\OBJ\STM32-RTX.axf: Error: L6218E: Undefined symbol SYSCFG_EXTILineConfig (referred from main.o).
+Target not created
+Build target 'STM32-RTX'
+compiling stm32l1xx_exti.c...
+compiling stm32l1xx_syscfg.c...
+linking...
+.\OBJ\STM32-RTX.axf: Error: L6218E: Undefined symbol NVIC_Init (referred from main.o).
+Target not created
+Build target 'STM32-RTX'
+compiling misc.c...
+linking...
+Program Size: Code=6884 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+Program Size: Code=6900 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\workspace\\STM32-RTX\\OBJ\\STM32-RTX.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+Program Size: Code=6932 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\workspace\\STM32-RTX\\OBJ\\STM32-RTX.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+Program Size: Code=6932 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\workspace\\STM32-RTX\\OBJ\\STM32-RTX.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+Program Size: Code=6932 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\workspace\\STM32-RTX\\OBJ\\STM32-RTX.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM32-RTX'
+compiling main.c...
+linking...
+Program Size: Code=6948 RO-data=316 RW-data=108 ZI-data=5188  
+".\OBJ\STM32-RTX.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\workspace\\STM32-RTX\\OBJ\\STM32-RTX.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.

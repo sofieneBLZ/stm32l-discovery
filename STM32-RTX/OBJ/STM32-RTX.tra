@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\OBJ\STM32-RTX.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\system_stm32l1xx.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\stm32l1xx_gpio.o"'
+### List of Objects: adding '".\obj\stm32l1xx_rcc.o"'
+### List of Objects: adding '".\obj\stm32l1xx_pwr.o"'
+### List of Objects: adding '".\obj\stm32l1xx_exti.o"'
+### List of Objects: adding '".\obj\stm32l1xx_syscfg.o"'
+### List of Objects: adding '".\obj\stm32l1xx_lcd.o"'
+### List of Objects: adding '".\obj\rtx_config.o"'
+### List of Objects: adding '".\obj\stm32l_discovery_lcd.o"'
+### List of Objects: adding '".\obj\stm32_tsl_api.o"'
+### List of Objects: adding '".\obj\stm32_tsl_multichannelkey.o"'
+### List of Objects: adding '".\obj\stm32_tsl_services.o"'
+### List of Objects: adding '".\obj\stm32_tsl_singlechannelkey.o"'
+### List of Objects: adding '".\obj\stm32_tsl_timebase.o"'
+### List of Objects: adding '".\obj\stm32l15x_tsl_ct_acquisition.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\function.o"'
+### List of Objects: adding '".\obj\startup_stm32l1xx_md.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\system_stm32l1xx.o" ".\obj\misc.o" ".\obj\core_cm3.o" ".\obj\stm32l1xx_gpio.o" ".\obj\stm32l1xx_rcc.o" ".\obj\stm32l1xx_pwr.o" ".\obj\stm32l1xx_exti.o" ".\obj\stm32l1xx_syscfg.o" ".\obj\stm32l1xx_lcd.o" ".\obj\rtx_config.o" ".\obj\stm32l_discovery_lcd.o" ".\obj\stm32_tsl_api.o" ".\obj\stm32_tsl_multichannelkey.o" ".\obj\stm32_tsl_services.o" ".\obj\stm32_tsl_singlechannelkey.o" ".\obj\stm32_tsl_timebase.o" ".\obj\stm32l15x_tsl_ct_acquisition.o" ".\obj\main.o" ".\obj\function.o" ".\obj\startup_stm32l1xx_md.o" "D:\Program Files\Keil\ARM\RV31\Lib\RTX_CM3.LIB" --strict --scatter ".\OBJ\STM32-RTX.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM32-RTX.map" -o ".\OBJ\STM32-RTX.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\OBJ\STM32-RTX.axf'
+### ADS-LD Command File: '.\OBJ\STM32-RTX.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\OBJ\STM32-RTX.lnp', Handle=0x00000688
+### Writing '.lnp' file
+### ADS-LD Command file '.\OBJ\STM32-RTX.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
