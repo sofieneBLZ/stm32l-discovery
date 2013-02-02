@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>360672091</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\BSP\STM32L-DISCOVERY\inc\discover_board.h</file>
+      <file>$PROJ_DIR$\BSP\STM32L-DISCOVERY\inc\stm32l_discovery_lcd.h</file>
+      <file>$PROJ_DIR$\BSP\STM32L-DISCOVERY\src\stm32l_discovery_lcd.c</file>
+      <file>$PROJ_DIR$\LIB\CMSIS\core_cm3.h</file>
+      <file>$PROJ_DIR$\LIB\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\LIB\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_exti.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_gpio.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_flash.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_lcd.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rcc.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rtc.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_syscfg.h</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_gpio.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_lcd.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_pwr.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tmr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_var.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_a.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash_ramfunc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_lcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_pwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_syscfg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash_ramfunc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\USER\stm32l1xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_pwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\USER\stm32l1xx_it.h</file>
+      <file>$PROJ_DIR$\USER\system_stm32l1xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_math.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_msg.pbi</file>
+      <file>$PROJ_DIR$\USER\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mutex.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_c.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_dbg.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_app_hooks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_app_hooks.pbi</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_pwr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cfg_app.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cfg_app.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_mem_a.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\STM32-uCOS-III.icf</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_ascii.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.pbi</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rcc.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rtc.c</file>
+      <file>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_syscfg.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\inc\cpu_cfg.h</file>
+      <file>$PROJ_DIR$\STARTUP\startup_stm32l1xx_md.s</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\inc\cpu.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\inc\cpu_core.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\inc\cpu_def.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_a.asm</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_c.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_core.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\inc\lib_ascii.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\inc\lib_def.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\inc\lib_math.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\inc\lib_mem.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\inc\lib_str.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_ascii.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_math.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_mem.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_str.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os_app_hooks.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os_cfg.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os_cfg_app.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os_cpu.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\inc\os_type.h</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_app_hooks.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cfg_app.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_core.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cpu_a.asm</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cpu_c.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_dbg.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_flag.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_int.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_mem.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_msg.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_mutex.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_pend_multi.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_prio.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_q.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_sem.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_stat.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_task.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_tick.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_time.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_tmr.c</file>
+      <file>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_var.c</file>
+      <file>$PROJ_DIR$\USER\inc\app_cfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_time.pbi</file>
+      <file>$PROJ_DIR$\USER\inc\includes.h</file>
+      <file>$PROJ_DIR$\USER\inc\main.h</file>
+      <file>$PROJ_DIR$\USER\inc\stm32l1xx.h</file>
+      <file>$PROJ_DIR$\USER\inc\stm32l1xx_conf.h</file>
+      <file>$PROJ_DIR$\USER\inc\stm32l1xx_it.h</file>
+      <file>$PROJ_DIR$\USER\inc\system_stm32l1xx.h</file>
+      <file>$PROJ_DIR$\USER\src\main.c</file>
+      <file>$PROJ_DIR$\USER\src\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\USER\src\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tmr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\BSP\&lt;invalid loc&gt;</file>
+      <file>$PROJ_DIR$\USER\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_os.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp_os.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_var.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_cpu_c.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32l1xx_md.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_str.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_dbg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_flag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_msg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_mutex.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_pend_multi.o</file>
+      <file>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_mem_a.asm</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_prio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_q.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_sem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_stat.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_task.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_tick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_pend_multi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_prio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_q.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_sem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_stat.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_task.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_flag.pbi</file>
+      <file>$PROJ_DIR$\BSP\bsp_os.h</file>
+      <file>$PROJ_DIR$\BSP\bsp.c</file>
+      <file>$PROJ_DIR$\BSP\bsp_os.c</file>
+      <file>$PROJ_DIR$\BSP\bsp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_time.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\USER\&lt;invalid loc&gt;</file>
+      <file>$PROJ_DIR$\Debug\Obj\os_int.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu_c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu_core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu_a.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu_core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu_c.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32-uCOS-III.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_math.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l_discovery_lcd.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l_discovery_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_mem.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_str.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_ascii.o</file>
+      <file>$TOOLKIT_DIR$\doc\infocenter\index.ENU.html</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\BSP\STM32L-DISCOVERY\src\stm32l_discovery_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133 0 130 71 70 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133 0 130 71 70 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash_ramfunc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 9 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 9 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 9 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 9 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 180 48 200 199 182 178 179 176 188 189</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LIB\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\STARTUP\startup_stm32l1xx_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85 87 83 86 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 87 83 86 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-CPU\src\cpu_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 85 87 83 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 85 87 83 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_ascii.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 85 87 83 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 85 87 83 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 85 87 83 86 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 85 87 83 86 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 85 87 83 86 92 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 85 87 83 86 92 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_str.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95 85 87 83 92 91 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 85 87 83 92 91 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_app_hooks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cfg_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cpu_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_cpu_c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_flag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_msg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_pend_multi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_prio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_q.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_sem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_stat.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_time.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_tmr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uCOS-III\src\os_var.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 85 87 83 86 92 105 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133 0 1 71 70 65 129 85 87 83 92 91 93 86 94 127 95 100 102 105 104 73 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133 0 1 71 70 65 129 85 87 83 92 91 93 86 94 127 95 100 102 105 104 73 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\src\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\src\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 3 200 199 182 178 179 176 188 189 5 56 58 4 134 132 8 10 9 11 61 12 14 6 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\USER\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 180 48 200 199 182 178 179 176 188 189</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uCOS-III\uC-LIB\src\lib_mem_a.asm</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BSP\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 147 199 182 178 179 176 188 189 71 70 65 85 87 83 86 92 91 94 127 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 147 199 182 178 179 176 188 189 71 70 65 85 87 83 86 92 91 94 127 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BSP\bsp_os.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 147 199 182 178 179 176 188 189 71 70 65 85 87 83 86 92 91 94 127 95 141 172 100 102 105 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 147 199 182 178 179 176 188 189 71 70 65 85 87 83 86 92 91 94 127 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 68 185 187 186 202 194 198 201 191 27 59 62 151 24 148 152 153 181 154 155 156 157 159 160 161 162 163 164 177 22 23 149 29 28 30 31 75 32 33 34 35 36 195 76 69 72 66 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\BSP\bsp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\BSP\bsp_os.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
